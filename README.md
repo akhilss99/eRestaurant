@@ -24,3 +24,9 @@ Dashboard by emailing the restaurant through a button.
 * Contact the developer through the Welcome page redirecting to
 LinkedIn Account.
 * Exit the app through the options menu in the welcome page.
+
+### Prerequisites:
+* Android Studio: Build and compile the application.
+* AWS EC2 (any cloud or local server): host python script to automate the push notifications through OneSignal & Firebase APIs.
+* One Signal: API communicate with Firebase to deploy regular push notifications on certain activities.
+* Firebase: Cloud services such as Real-Time DB, Cloud Messaging.  
