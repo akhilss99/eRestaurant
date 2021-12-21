@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/actor</item>
+        <item>@font/alice</item>
+        <item>@font/anton</item>
+        <item>@font/arima_madurai</item>
+        <item>@font/bad_script</item>
+        <item>@font/bigshot_one</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/boogaloo</item>
+        <item>@font/bree_serif</item>
+        <item>@font/cardo_bold</item>
+    </array>
+</resources>

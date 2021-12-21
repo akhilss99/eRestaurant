@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="270dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/welcome_textview"
+        android:fontFamily="@font/arima_madurai"
+        android:gravity="center"
+        android:text="@string/welcomeactivitymsg"
+        android:textSize="8pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/nonveg"
+        android:layout_width="118dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="36dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/imagebuttonstylefornon"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/nonveg" />
+
+    <ImageButton
+        android:id="@+id/veg"
+        android:layout_width="118dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="83dp"
+        android:background="@drawable/imagebuttonstyle"
+        android:padding="6dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/nonveg"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/veg" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Dashboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/veg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

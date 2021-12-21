@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043477619470",
+    "project_id": "erestaurant-b673a",
+    "storage_bucket": "erestaurant-b673a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043477619470:android:736a1d42abd47e55d56d5f",
+        "android_client_info": {
+          "package_name": "com.example.foodorderingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043477619470-6rjv6pismjpms7ednfdmndvjp2plhdme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACiKStxQXzs6RBQv8qgBS3BeolQaLWiy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043477619470-6rjv6pismjpms7ednfdmndvjp2plhdme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

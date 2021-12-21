@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Food Ordering App - eRestaurant</string>
+    <string name="welcome_msg">Welcome to the eRestaurant a.k.a the Food Ordering App. Choose from a variety of dishes and satisfy the food craving enthusiast in YOU! Start Ordering!!</string>
+    <string name="welcomeactivitymsg">Choose your cuisine type to continue.</string>
+    <string name="veg">Vegetarian</string>
+    <string name="nonveg">Non-Vegetarian</string>
+    <string name="title_activity_veg_food">VegFood</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_item_detail">Item title</string>
+
+    <string-array name="fooditems">
+        <item>Žrnovski Makaruni (Pasta)</item>
+        <item>Authentic Saag Paneer</item>
+        <item>Vegetable Tehri</item>
+        <item>Kimbap (Korean Sushi)</item>
+        <item>Baked Falafel</item>
+        <item>Authentic Fettuccine Alfredo</item>
+        <item>Vegetable Lo Mein</item>
+        <item>Vegetable Fried Rice</item>
+        <item>Ravioli</item>
+        <item>Beet Ravioli</item>
+    </string-array>
+    <string-array name="fooddetails">
+        <item>These homemade tubular pasta, Žrnovski Makaruni, are a traditional recipe from a small town on Korčula, one of Croatia\’s southern islands. Hand rolling these noodles takes a bit of time and is a great activity to get the whole family involved in. </item>
+        <item>Saag paneer is a popular Indian vegetarian dish made of spinach and other leafy greens (called saag) and paneer (Indian cottage cheese).
+
+The greens are ground into a paste, and seasoned with spices. Fried paneer is then added on top.
+
+The origin of this dish is from the province of Punjab in northern India.</item>
+        <item>Vegetable tehri (also called tehari and tahari) is a one pot vegetable and rice dish from North India. It is super simple to make and can be made in less than 45 minutes, making it a perfect meal for a quick weeknight dinner or if unexpected guests drop by.
+
+This recipe is also vegan, dairy free and gluten free.</item>
+        <item>Kimbap (or gimbap) could be called Korean sushi, and if you are a fan of sushi, you are going to love the light and slightly nutty flavor of these rolls. They\’re the perfect recipe for summer picnics and lunches! </item>
+        <item>Baked Falafel gives you all the healthy, nutty falafel goodness without the hassle or added fat of frying, and it\’s just as good for stuffing into a pita! </item>
+        <item>Fettuccine Alfredo is a dish that Americans think of in their list of “classic Italian dishes” right along with Spaghetti and Meatballs and Ravioli. But, the dish that is known to Americans is not quite the authentic Italian version.
+
+Fettuccine Alfredo started off as the desperate attempt of Roman restaurant owner, Alfredo di Lelio, to find something that his pregnant wife, who had lost most of her appetite due to pregnancy, would be able to eat. So, he added some Parmesan cheese to an everyday Italian dish, fettuccine al burro (Fedduccine with Butter), and she couldn\’t stop eating it!</item>
+        <item>Lo mein is a Chinese noodle dish that you have probably seen at your local takeout restaurant.
+
+The Cantonese word lo mein translates to stirred noodles. So, at its most basic, this is a dish of noodles that are stirred together with vegetables (and sometimes a protein).
+
+Authentic lo mein has only a thin sauce, not the thick, heavy sauce you will find in American takeout versions.</item>
+        <item>Think of fried rice as a leftovers dish. It\’s the easiest way we know to transform leftover rice, veggies, and meat (if you so desire) into a completely new creation.
+
+The leftover part is actually quite important in this dish. I\’m sure you\’ve noticed how leftover rice can get a bit dry. Right? It\’s that dryness that we want for fried rice. Freshly cooked rice has too much moisture to fry properly, it will just continue to steam. Meaning, you\’ll have a tasty rice saute, but not that nice and slightly crisp fried rice feel.</item>
+        <item>Ravioli is an Italian dumpling that\'s typically stuffed with ricotta, meat, cheese, and vegetables. The filling is then sealed between two thin layers of egg pasta dough and typically served with a delicious tomato or cream-based pasta sauce.</item>
+        <item>Slightly sweet and brightly colored, our beet ravioli is filled with an herbed mushroom filling and topped with a sauteed mushroom sauce.
+
+</item>
+    </string-array>
+
+    <integer-array name="foodprice">
+        <item>1000</item>
+        <item>1234</item>
+        <item>800</item>
+        <item>322</item>
+        <item>499</item>
+        <item>222</item>
+        <item>100</item>
+        <item>222</item>
+        <item>455</item>
+        <item>677</item>
+    </integer-array>
+    <string name="sericetitle">Need Help?</string>
+    <string name="congratsmsg">Congratulations, your order has been placed. Please wait further while we contact you, Thank You!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="servicemsg">Here you can select your favourite dish from the variety of cuisines offered from the vendors directly to you! \nSelect the cuisine type to continue. \nHappy Ordering!</string>
+</resources>

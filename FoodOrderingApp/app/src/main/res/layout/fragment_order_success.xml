@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderSuccess" >
+
+
+    <EditText
+        android:id="@+id/searchquery"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:fontFamily="@font/bad_script"
+        android:inputType="textPersonName"
+        android:text="search here..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/search"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Search by order Name"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchquery" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/getorders"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="168dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="80dp"
+        android:text="Order History"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/clear"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="124dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="272dp"
+        android:text="Clear all orders"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchquery" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="219dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/welcome_textview"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:text="Dashboard"
+        android:textSize="15pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/email"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="13dp"
+        android:clickable="true"
+        android:src="@drawable/ic_baseline_email_24"
+        app:fabCustomSize="59dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/milestone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/milestone"
+        android:layout_width="47dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="36dp"
+        android:clickable="true"
+        android:src="@drawable/ic_baseline_emoji_events_24"
+        app:fabCustomSize="43dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clear" />
+</androidx.constraintlayout.widget.ConstraintLayout>

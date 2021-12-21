@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MilestoneTracker">
+
+    <TextView
+        android:id="@+id/bill"
+        android:layout_width="240dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/boogaloo"
+        android:gravity="center"
+        android:text="1000"
+        android:textSize="28pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="216dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/boogaloo"
+        android:gravity="center"
+        android:text="Total Bill"
+        android:background="@drawable/welcome_textview"
+        android:textSize="20pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="247dp"
+        android:layout_height="37dp"
+        android:max="100"
+        android:min="0"
+        android:layout_marginTop="53dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/milestonedisp" />
+
+    <TextView
+        android:id="@+id/milestonedisp"
+        android:layout_width="195dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="na"
+        android:textSize="14pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bill" />
+</androidx.constraintlayout.widget.ConstraintLayout>
